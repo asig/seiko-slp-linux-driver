@@ -32,9 +32,11 @@
 */
 
 #include <cups/cups.h>
+#include <cups/ppd.h>
 #include <cups/raster.h>
 
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <unistd.h>
 #include <fcntl.h>
 #include <vector>
