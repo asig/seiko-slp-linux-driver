@@ -29,6 +29,14 @@ Enclosed in this archive please find:
 ------------------------------------------------------------------------
 Building the Driver
 
+tl;dr for Ubuntu 19.10:
+
+    ```bash
+    sudo apt install libcups2-dev libcupsimage2-dev libjpeg-dev zlib1g-dev build-essential
+    make build
+    sudo make install
+    ```
+
 CUPS libraries:
 
 	Building this driver requires that CUPS development libraries are installed.  These libraries can be found within your Linux implementation's software installer.
